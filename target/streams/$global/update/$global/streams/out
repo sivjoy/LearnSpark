@@ -1,0 +1,783 @@
+[info] Updating {file:/home/siv/Spark/projects/LearnSpark/}LearnSpark...
+[debug] :: resolving dependencies :: simple-project#simple-project_2.10;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for simple-project#simple-project_2.10;1.0 [compile]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.10.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f96e097
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
+[debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
+[debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [compile->default(compile)]
+[info] Resolving org.scalatest#scalatest_2.10;2.2.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;2.2.4 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;2.2.4
+[debug] 	found org.scalatest#scalatest_2.10;2.2.4 in sbt-chain
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [compile->runtime]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [compile->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [compile->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)]
+[info] Resolving org.scala-lang#scala-reflect;2.10.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4
+[debug] 	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain
+[debug] 	[2.10.4] org.scala-lang#scala-reflect;2.10.4
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [compile->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for simple-project#simple-project_2.10;1.0 [runtime]
+[debug] == resolving dependencies for simple-project#simple-project_2.10;1.0 [compile]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [compile->default(compile)]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [compile->runtime]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [compile->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [compile->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for simple-project#simple-project_2.10;1.0 [test]
+[debug] == resolving dependencies for simple-project#simple-project_2.10;1.0 [runtime]
+[debug] == resolving dependencies for simple-project#simple-project_2.10;1.0 [compile]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [compile->default(compile)]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [compile->runtime]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [compile->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.2.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.scalatest#scalatest_2.10;2.2.4 [compile->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for simple-project#simple-project_2.10;1.0 [provided]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.apache.spark#spark-core_2.10;1.2.0 [provided->default(compile)]
+[info] Resolving org.apache.spark#spark-core_2.10;1.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.spark#spark-core_2.10;1.2.0 {provided=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-core_2.10;1.2.0
+[debug] 	found org.apache.spark#spark-core_2.10;1.2.0 in sbt-chain
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.apache.spark#spark-core_2.10;1.2.0 [provided->runtime]
+[debug] == resolving dependencies simple-project#simple-project_2.10;1.0->org.apache.spark#spark-core_2.10;1.2.0 [provided->compile]
+[debug] == resolving dependencies org.apache.spark#spark-core_2.10;1.2.0->com.twitter#chill_2.10;0.5.0 [compile->master(*)]
+[info] Resolving com.twitter#chill_2.10;0.5.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.twitter#chill_2.10;0.5.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.twitter#chill_2.10;0.5.0
+[debug] 	found com.twitter#chill_2.10;0.5.0 in sbt-chain
+[debug] == resolving dependencies org.apache.spark#spark-core_2.10;1.2.0->com.twitter#chill_2.10;0.5.0 [compile->compile(*)]
+[debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->com.twitter#chill-java;0.5.0 [compile->master(*)]
+[info] Resolving com.twitter#chill-java;0.5.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.twitter#chill-java;0.5.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.twitter#chill-java;0.5.0
+[debug] 	found com.twitter#chill-java;0.5.0 in sbt-chain
+[debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->com.twitter#chill-java;0.5.0 [compile->compile(*)]
+[debug] == resolving dependencies com.twitter#chill-java;0.5.0->com.esotericsoftware.kryo#kryo;2.21 [compile->master(*)]
+[info] Resolving com.esotericsoftware.kryo#kryo;2.21 ...
+[debug] sbt-chain: Checking cache for: dependency: com.esotericsoftware.kryo#kryo;2.21 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.esotericsoftware.kryo#kryo;2.21
+[debug] 	found com.esotericsoftware.kryo#kryo;2.21 in sbt-chain
+[debug] == resolving dependencies com.twitter#chill-java;0.5.0->com.esotericsoftware.kryo#kryo;2.21 [compile->compile(*)]
+[debug] == resolving dependencies com.esotericsoftware.kryo#kryo;2.21->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->master(*)]
+[info] Resolving com.esotericsoftware.reflectasm#reflectasm;1.07 ...
+[debug] sbt-chain: Checking cache for: dependency: com.esotericsoftware.reflectasm#reflectasm;1.07 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.esotericsoftware.reflectasm#reflectasm;1.07
+[debug] 	found com.esotericsoftware.reflectasm#reflectasm;1.07 in sbt-chain
+[debug] == resolving dependencies com.esotericsoftware.kryo#kryo;2.21->com.esotericsoftware.reflectasm#reflectasm;1.07 [compile->compile(*)]
+[debug] excluding dependency: org.ow2.asm#asm;4.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies com.esotericsoftware.kryo#kryo;2.21->com.esotericsoftware.minlog#minlog;1.2 [compile->master(*)]
+[info] Resolving com.esotericsoftware.minlog#minlog;1.2 ...
+[debug] sbt-chain: Checking cache for: dependency: com.esotericsoftware.minlog#minlog;1.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.esotericsoftware.minlog#minlog;1.2
+[debug] 	found com.esotericsoftware.minlog#minlog;1.2 in sbt-chain
+[debug] == resolving dependencies com.esotericsoftware.kryo#kryo;2.21->com.esotericsoftware.minlog#minlog;1.2 [compile->compile(*)]
+[debug] == resolving dependencies com.esotericsoftware.kryo#kryo;2.21->org.objenesis#objenesis;1.2 [compile->master(*)]
+[info] Resolving org.objenesis#objenesis;1.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.objenesis#objenesis;1.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.2
+[debug] 	found org.objenesis#objenesis;1.2 in sbt-chain
+[debug] == resolving dependencies com.esotericsoftware.kryo#kryo;2.21->org.objenesis#objenesis;1.2 [compile->compile(*)]
+[debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->com.twitter#chill-java;0.5.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->com.twitter#chill-java;0.5.0 [compile->compile]
+[debug] == resolving dependencies com.twitter#chill-java;0.5.0->com.esotericsoftware.kryo#kryo;2.21 [runtime->runtime(*)]
+[debug] == resolving dependencies com.twitter#chill-java;0.5.0->com.esotericsoftware.kryo#kryo;2.21 [runtime->compile]
+[debug] == resolving dependencies com.esotericsoftware.kryo#kryo;2.21->com.esotericsoftware.reflectasm#reflectasm;1.07 [runtime->runtime(*)]
+[debug] == resolving dependencies com.esotericsoftware.kryo#kryo;2.21->com.esotericsoftware.reflectasm#reflectasm;1.07 [runtime->compile]
+[debug] excluding dependency: org.ow2.asm#asm;4.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime
+[debug] == resolving dependencies com.esotericsoftware.kryo#kryo;2.21->com.esotericsoftware.minlog#minlog;1.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.esotericsoftware.kryo#kryo;2.21->com.esotericsoftware.minlog#minlog;1.2 [runtime->compile]
+[debug] == resolving dependencies com.esotericsoftware.kryo#kryo;2.21->org.objenesis#objenesis;1.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.esotericsoftware.kryo#kryo;2.21->org.objenesis#objenesis;1.2 [runtime->compile]
+[debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->com.esotericsoftware.kryo#kryo;2.21 [compile->master(*)]
+[debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->com.esotericsoftware.kryo#kryo;2.21 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-core_2.10;1.2.0->com.twitter#chill_2.10;0.5.0 [compile->runtime(*)]
+[debug] == resolving dependencies org.apache.spark#spark-core_2.10;1.2.0->com.twitter#chill_2.10;0.5.0 [compile->compile]
+[debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->com.twitter#chill-java;0.5.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->com.twitter#chill-java;0.5.0 [runtime->compile]
+[debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->com.esotericsoftware.kryo#kryo;2.21 [runtime->runtime(*)]
+[debug] == resolving dependencies com.twitter#chill_2.10;0.5.0->com.esotericsoftware.kryo#kryo;2.21 [runtime->compile]
+[debug] == resolving dependencies org.apache.spark#spark-core_2.10;1.2.0->com.twitter#chill-java;0.5.0 [compile->master(*)]
+[debug] == resolving dependencies org.apache.spark#spark-core_2.10;1.2.0->com.twitter#chill-java;0.5.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.spark#spark-core_2.10;1.2.0->org.apache.hadoop#hadoop-client;2.2.0 [compile->master(*)]
+[info] Resolving org.apache.hadoop#hadoop-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-client;2.2.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-client;2.2.0 in sbt-chain
+[debug] == resolving dependencies org.apache.spark#spark-core_2.10;1.2.0->org.apache.hadoop#hadoop-client;2.2.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-client;2.2.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->master(*)]
+[info] Resolving org.apache.hadoop#hadoop-common;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-common;2.2.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-common;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-common;2.2.0 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-client;2.2.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->compile(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving org.apache.hadoop#hadoop-annotations;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-annotations;2.2.0 {compile=[compile(*), master(*)], runtime=[runtime(*)], provided=[compile(*), provided(*), runtime(*), master(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-annotations;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-annotations;2.2.0 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->com.google.guava#guava;11.0.2 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving com.google.guava#guava;11.0.2 ...
+[debug] sbt-chain: Checking cache for: dependency: com.google.guava#guava;11.0.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.google.guava#guava;11.0.2
+[debug] 	found com.google.guava#guava;11.0.2 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->com.google.guava#guava;11.0.2 [compile->compile(*)]
+[debug] == resolving dependencies com.google.guava#guava;11.0.2->com.google.code.findbugs#jsr305;1.3.9 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving com.google.code.findbugs#jsr305;1.3.9 ...
+[debug] sbt-chain: Checking cache for: dependency: com.google.code.findbugs#jsr305;1.3.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;1.3.9
+[debug] 	found com.google.code.findbugs#jsr305;1.3.9 in sbt-chain
+[debug] == resolving dependencies com.google.guava#guava;11.0.2->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)]
+[debug] == resolving dependencies com.google.guava#guava;11.0.2->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime(*)]
+[debug] == resolving dependencies com.google.guava#guava;11.0.2->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-cli#commons-cli;1.2 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving commons-cli#commons-cli;1.2 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-cli#commons-cli;1.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-cli#commons-cli;1.2
+[debug] 	found commons-cli#commons-cli;1.2 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-cli#commons-cli;1.2 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-math;2.1 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving org.apache.commons#commons-math;2.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-math;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math;2.1
+[debug] 	found org.apache.commons#commons-math;2.1 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-math;2.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->xmlenc#xmlenc;0.52 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving xmlenc#xmlenc;0.52 ...
+[debug] sbt-chain: Checking cache for: dependency: xmlenc#xmlenc;0.52 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: xmlenc#xmlenc;0.52
+[debug] 	found xmlenc#xmlenc;0.52 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->xmlenc#xmlenc;0.52 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-httpclient#commons-httpclient;3.1 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving commons-httpclient#commons-httpclient;3.1 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-httpclient#commons-httpclient;3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-httpclient#commons-httpclient;3.1
+[debug] 	found commons-httpclient#commons-httpclient;3.1 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-httpclient#commons-httpclient;3.1 [compile->compile(*)]
+[debug] == resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-codec#commons-codec;1.4 [compile->master(*)]
+[info] Resolving commons-codec#commons-codec;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.4
+[debug] 	found commons-codec#commons-codec;1.4 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-codec#commons-codec;1.4 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-io#commons-io;2.1 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving commons-io#commons-io;2.1 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-io#commons-io;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.1
+[debug] 	found commons-io#commons-io;2.1 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-io#commons-io;2.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-net#commons-net;3.1 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-net#commons-net;3.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-logging#commons-logging;1.1.1 [compile->master(*)]
+[info] Resolving commons-logging#commons-logging;1.1.1 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
+[debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-logging#commons-logging;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->log4j#log4j;1.2.17 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving log4j#log4j;1.2.17 ...
+[debug] sbt-chain: Checking cache for: dependency: log4j#log4j;1.2.17 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: log4j#log4j;1.2.17
+[debug] 	found log4j#log4j;1.2.17 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->log4j#log4j;1.2.17 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->log4j#log4j;1.2.17 [compile->runtime(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->log4j#log4j;1.2.17 [compile->compile]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-lang#commons-lang;2.5 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving commons-lang#commons-lang;2.5 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-lang#commons-lang;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-lang#commons-lang;2.5
+[debug] 	found commons-lang#commons-lang;2.5 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-lang#commons-lang;2.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-configuration#commons-configuration;1.6 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving commons-configuration#commons-configuration;1.6 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-configuration#commons-configuration;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-configuration#commons-configuration;1.6
+[debug] 	found commons-configuration#commons-configuration;1.6 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->commons-configuration#commons-configuration;1.6 [compile->compile(*)]
+[debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-collections#commons-collections;3.2.1 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving commons-collections#commons-collections;3.2.1 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-collections#commons-collections;3.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
+[debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
+[debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-collections#commons-collections;3.2.1 [compile->compile(*)]
+[debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-lang#commons-lang;2.4 [compile->master(*)]
+[debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-lang#commons-lang;2.5 [compile->master(*)]
+[debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-lang#commons-lang;2.4 [compile->compile(*)]
+[debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-lang#commons-lang;2.5 [compile->compile(*)]
+[debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-logging#commons-logging;1.1.1 [compile->master(*)]
+[debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-logging#commons-logging;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-digester#commons-digester;1.8 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving commons-digester#commons-digester;1.8 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-digester#commons-digester;1.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-digester#commons-digester;1.8
+[debug] 	found commons-digester#commons-digester;1.8 in sbt-chain
+[debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-digester#commons-digester;1.8 [compile->compile(*)]
+[debug] == resolving dependencies commons-digester#commons-digester;1.8->commons-beanutils#commons-beanutils;1.7.0 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving commons-beanutils#commons-beanutils;1.7.0 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-beanutils#commons-beanutils;1.7.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-beanutils#commons-beanutils;1.7.0
+[debug] 	found commons-beanutils#commons-beanutils;1.7.0 in sbt-chain
+[debug] == resolving dependencies commons-digester#commons-digester;1.8->commons-beanutils#commons-beanutils;1.7.0 [compile->compile(*)]
+[debug] == resolving dependencies commons-beanutils#commons-beanutils;1.7.0->commons-logging#commons-logging;1.0.3 [compile->master(*)]
+[debug] == resolving dependencies commons-beanutils#commons-beanutils;1.7.0->commons-logging#commons-logging;1.0.3 [compile->compile(*)]
+[debug] == resolving dependencies commons-beanutils#commons-beanutils;1.7.0->commons-logging#commons-logging;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies commons-digester#commons-digester;1.8->commons-logging#commons-logging;1.1 [compile->master(*)]
+[debug] == resolving dependencies commons-digester#commons-digester;1.8->commons-logging#commons-logging;1.1.1 [compile->master(*)]
+[debug] == resolving dependencies commons-digester#commons-digester;1.8->commons-logging#commons-logging;1.1 [compile->compile(*)]
+[debug] == resolving dependencies commons-digester#commons-digester;1.8->commons-logging#commons-logging;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-beanutils#commons-beanutils-core;1.8.0 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving commons-beanutils#commons-beanutils-core;1.8.0 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-beanutils#commons-beanutils-core;1.8.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-beanutils#commons-beanutils-core;1.8.0
+[debug] 	found commons-beanutils#commons-beanutils-core;1.8.0 in sbt-chain
+[debug] == resolving dependencies commons-configuration#commons-configuration;1.6->commons-beanutils#commons-beanutils-core;1.8.0 [compile->compile(*)]
+[debug] == resolving dependencies commons-beanutils#commons-beanutils-core;1.8.0->commons-logging#commons-logging;1.1.1 [compile->master(*)]
+[debug] == resolving dependencies commons-beanutils#commons-beanutils-core;1.8.0->commons-logging#commons-logging;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-api;1.7.5 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving org.slf4j#slf4j-api;1.7.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5
+[debug] 	found org.slf4j#slf4j-api;1.7.5 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-api;1.7.5 [compile->runtime(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.slf4j#slf4j-api;1.7.5 [compile->compile]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.8.8 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving org.codehaus.jackson#jackson-core-asl;1.8.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.codehaus.jackson#jackson-core-asl;1.8.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-core-asl;1.8.8
+[debug] 	found org.codehaus.jackson#jackson-core-asl;1.8.8 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-core-asl;1.8.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-mapper-asl;1.8.8 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving org.codehaus.jackson#jackson-mapper-asl;1.8.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.codehaus.jackson#jackson-mapper-asl;1.8.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-mapper-asl;1.8.8
+[debug] 	found org.codehaus.jackson#jackson-mapper-asl;1.8.8 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.codehaus.jackson#jackson-mapper-asl;1.8.8 [compile->compile(*)]
+[debug] == resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.8->org.codehaus.jackson#jackson-core-asl;1.8.8 [compile->master(*)]
+[debug] == resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.8.8->org.codehaus.jackson#jackson-core-asl;1.8.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.avro#avro;1.7.4 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving org.apache.avro#avro;1.7.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.avro#avro;1.7.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.avro#avro;1.7.4
+[debug] 	found org.apache.avro#avro;1.7.4 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.avro#avro;1.7.4 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->org.codehaus.jackson#jackson-core-asl;1.8.8 [compile->master(*)]
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->org.codehaus.jackson#jackson-core-asl;1.8.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->org.codehaus.jackson#jackson-mapper-asl;1.8.8 [compile->master(*)]
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->org.codehaus.jackson#jackson-mapper-asl;1.8.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->com.thoughtworks.paranamer#paranamer;2.3 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[info] Resolving com.thoughtworks.paranamer#paranamer;2.3 ...
+[debug] sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.3
+[debug] 	found com.thoughtworks.paranamer#paranamer;2.3 in sbt-chain
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->com.thoughtworks.paranamer#paranamer;2.3 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->org.xerial.snappy#snappy-java;1.0.4.1 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[info] Resolving org.xerial.snappy#snappy-java;1.0.4.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.xerial.snappy#snappy-java;1.0.4.1
+[debug] 	found org.xerial.snappy#snappy-java;1.0.4.1 in sbt-chain
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->org.xerial.snappy#snappy-java;1.0.4.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->org.xerial.snappy#snappy-java;1.0.4.1 [compile->runtime(*)]
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->org.xerial.snappy#snappy-java;1.0.4.1 [compile->compile]
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->org.apache.commons#commons-compress;1.4.1 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[info] Resolving org.apache.commons#commons-compress;1.4.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-compress;1.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-compress;1.4.1
+[debug] 	found org.apache.commons#commons-compress;1.4.1 in sbt-chain
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->org.apache.commons#commons-compress;1.4.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.xerial.snappy#snappy-java;1.1.1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.xerial.snappy#snappy-java;1.0.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[info] Resolving org.tukaani#xz;1.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.tukaani#xz;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.tukaani#xz;1.0
+[debug] 	found org.tukaani#xz;1.0 in sbt-chain
+[debug] == resolving dependencies org.apache.commons#commons-compress;1.4.1->org.tukaani#xz;1.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->org.slf4j#slf4j-api;1.6.4 [compile->master(*)]
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->org.slf4j#slf4j-api;1.7.5 [compile->master(*)]
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->org.slf4j#slf4j-api;1.6.4 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.avro#avro;1.7.4->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving com.google.protobuf#protobuf-java;2.5.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.google.protobuf#protobuf-java;2.5.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.5.0
+[debug] 	found com.google.protobuf#protobuf-java;2.5.0 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->master(*)]
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-json;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: net.java.dev.jets3t#jets3t;0.6.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.jcraft#jsch;0.1.42 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving org.apache.hadoop#hadoop-auth;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-auth;2.2.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-auth;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-auth;2.2.0 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-api;1.7.5 [compile->master(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->commons-codec#commons-codec;1.4 [compile->master(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-auth;2.2.0->commons-codec#commons-codec;1.4 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-compress;1.4.1 [compile->master(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-common;2.2.0->org.apache.commons#commons-compress;1.4.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-client;2.2.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->master(*)]
+[info] Resolving org.apache.hadoop#hadoop-hdfs;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-hdfs;2.2.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-hdfs;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-hdfs;2.2.0 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-client;2.2.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->compile(*)]
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: commons-daemon#commons-daemon;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet.jsp#jsp-api;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: tomcat#jasper-runtime;5.5.23 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->com.google.guava#guava;11.0.2 [compile->master(*)]
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: commons-daemon#commons-daemon;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet.jsp#jsp-api;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: tomcat#jasper-runtime;5.5.23 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->com.google.guava#guava;11.0.2 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->master(*)]
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: commons-daemon#commons-daemon;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet.jsp#jsp-api;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: tomcat#jasper-runtime;5.5.23 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving org.mortbay.jetty#jetty-util;6.1.26 ...
+[debug] sbt-chain: Checking cache for: dependency: org.mortbay.jetty#jetty-util;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.mortbay.jetty#jetty-util;6.1.26
+[debug] 	found org.mortbay.jetty#jetty-util;6.1.26 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->commons-cli#commons-cli;1.2 [compile->master(*)]
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: commons-daemon#commons-daemon;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet.jsp#jsp-api;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: tomcat#jasper-runtime;5.5.23 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->commons-cli#commons-cli;1.2 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->commons-codec#commons-codec;1.4 [compile->master(*)]
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: commons-daemon#commons-daemon;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet.jsp#jsp-api;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: tomcat#jasper-runtime;5.5.23 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->commons-codec#commons-codec;1.4 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->commons-io#commons-io;2.1 [compile->master(*)]
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: commons-daemon#commons-daemon;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet.jsp#jsp-api;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: tomcat#jasper-runtime;5.5.23 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->commons-io#commons-io;2.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->commons-lang#commons-lang;2.5 [compile->master(*)]
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: commons-daemon#commons-daemon;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet.jsp#jsp-api;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: tomcat#jasper-runtime;5.5.23 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->commons-lang#commons-lang;2.5 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->commons-logging#commons-logging;1.1.1 [compile->master(*)]
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: commons-daemon#commons-daemon;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet.jsp#jsp-api;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: tomcat#jasper-runtime;5.5.23 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->commons-logging#commons-logging;1.1.1 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->log4j#log4j;1.2.17 [compile->master(*)]
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: commons-daemon#commons-daemon;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet.jsp#jsp-api;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: tomcat#jasper-runtime;5.5.23 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->log4j#log4j;1.2.17 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master(*)]
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: commons-daemon#commons-daemon;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet.jsp#jsp-api;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: tomcat#jasper-runtime;5.5.23 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->org.codehaus.jackson#jackson-core-asl;1.8.8 [compile->master(*)]
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: commons-daemon#commons-daemon;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet.jsp#jsp-api;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: tomcat#jasper-runtime;5.5.23 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->org.codehaus.jackson#jackson-core-asl;1.8.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->org.codehaus.jackson#jackson-mapper-asl;1.8.8 [compile->master(*)]
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: commons-daemon#commons-daemon;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet.jsp#jsp-api;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: tomcat#jasper-runtime;5.5.23 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->org.codehaus.jackson#jackson-mapper-asl;1.8.8 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->xmlenc#xmlenc;0.52 [compile->master(*)]
+[debug] excluding dependency: org.mortbay.jetty#jetty;6.1.26 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-core;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.sun.jersey#jersey-server;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: commons-daemon#commons-daemon;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet.jsp#jsp-api;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: javax.servlet#servlet-api;2.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: tomcat#jasper-runtime;5.5.23 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-hdfs;2.2.0->xmlenc#xmlenc;0.52 [compile->compile(*)]
+[debug] == resolving dependencies org.apache.hadoop#hadoop-client;2.2.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->master(*)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 in sbt-chain
+[debug] == resolving dependencies org.apache.hadoop#hadoop-client;2.2.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->compile(*)]
+[debug] excluding dependency: org.apache.hadoop#hadoop-yarn-server-web-proxy;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.apache.avro#avro;1.7.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.apache.hadoop#hadoop-annotations;2.2.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.google.inject.extensions#guice-servlet;3.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: io.netty#netty;3.6.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] == resolving dependencies org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->compile(*)]
+[debug] excluding dependency: org.apache.hadoop#hadoop-yarn-server-web-proxy;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.apache.avro#avro;1.7.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: org.apache.hadoop#hadoop-annotations;2.2.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: com.google.inject.extensions#guice-servlet;3.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[debug] excluding dependency: io.netty#netty;3.6.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/siv/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-common/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
