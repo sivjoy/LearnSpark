@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150131104041"/>
+		date="20150206174409"/>
 	<dependencies>
 		<module organisation="org.codehaus.jackson" name="jackson-xc">
 			<revision name="1.8.8" status="release" pubdate="20120121065710" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="49">
@@ -1153,7 +1153,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient">
 			<revision name="2.2.0" status="release" pubdate="20131007120723" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="55">
-				<metadata-artifact status="successful" details="" size="5474" time="1278" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="5474" time="1139" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
 				<caller organisation="learnspark" name="learnspark$sources_javadoc_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-jobclient" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3579980" time="0" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/docs/hadoop-mapreduce-client-jobclient-2.2.0-javadoc.jar">
@@ -1170,7 +1170,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app">
 			<revision name="2.2.0" status="release" pubdate="20131007120711" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="32">
-				<metadata-artifact status="successful" details="" size="4335" time="1332" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="4335" time="1147" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
 				<caller organisation="learnspark" name="learnspark$sources_javadoc_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-app" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2898530" time="0" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/docs/hadoop-mapreduce-client-app-2.2.0-javadoc.jar">
@@ -1187,7 +1187,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-shuffle">
 			<revision name="2.2.0" status="release" pubdate="20131007120703" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="54">
-				<metadata-artifact status="successful" details="" size="1675" time="1271" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1675" time="1157" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
 				<caller organisation="learnspark" name="learnspark$sources_javadoc_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-shuffle" type="jar" ext="jar" status="no" details="" size="21537" time="0" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/jars/hadoop-mapreduce-client-shuffle-2.2.0.jar">
@@ -1204,7 +1204,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-nodemanager">
 			<revision name="2.2.0" status="release" pubdate="20131007120538" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="56">
-				<metadata-artifact status="successful" details="" size="7324" time="1846" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="7324" time="1154" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
 				<caller organisation="learnspark" name="learnspark$sources_javadoc_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-server-nodemanager" type="jar" ext="jar" status="no" details="" size="467638" time="0" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/jars/hadoop-yarn-server-nodemanager-2.2.0.jar">
@@ -1221,7 +1221,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common">
 			<revision name="2.2.0" status="release" pubdate="20131007120659" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="33">
-				<metadata-artifact status="successful" details="" size="3273" time="1235" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="3273" time="1218" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
 				<caller organisation="learnspark" name="learnspark$sources_javadoc_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-common" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3225841" time="0" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/docs/hadoop-mapreduce-client-common-2.2.0-javadoc.jar">
@@ -1238,7 +1238,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-common">
 			<revision name="2.2.0" status="release" pubdate="20131007120526" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="53">
-				<metadata-artifact status="successful" details="" size="3534" time="1333" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="3534" time="1142" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
 				<caller organisation="learnspark" name="learnspark$sources_javadoc_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-server-common" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="936111" time="0" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/docs/hadoop-yarn-server-common-2.2.0-javadoc.jar">
@@ -1255,7 +1255,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-core">
 			<revision name="2.2.0" status="release" pubdate="20131007120626" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="52">
-				<metadata-artifact status="successful" details="" size="3085" time="1328" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="3085" time="1251" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
 				<caller organisation="learnspark" name="learnspark$sources_javadoc_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-core" type="jar" ext="jar" status="no" details="" size="1455001" time="0" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/jars/hadoop-mapreduce-client-core-2.2.0.jar">
@@ -1272,7 +1272,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-client">
 			<revision name="2.2.0" status="release" pubdate="20131007120604" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="51">
-				<metadata-artifact status="successful" details="" size="1961" time="1841" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1961" time="1186" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom"/>
 				<caller organisation="learnspark" name="learnspark$sources_javadoc_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-client" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="603744" time="0" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/docs/hadoop-yarn-client-2.2.0-javadoc.jar">
@@ -1289,7 +1289,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-common">
 			<revision name="2.2.0" status="release" pubdate="20131007120515" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="34">
-				<metadata-artifact status="successful" details="" size="5032" time="1322" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="5032" time="1192" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
 				<caller organisation="learnspark" name="learnspark$sources_javadoc_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-common" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="6749818" time="0" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/docs/hadoop-yarn-common-2.2.0-javadoc.jar">
@@ -1306,7 +1306,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-api">
 			<revision name="2.2.0" status="release" pubdate="20131007120452" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="35">
-				<metadata-artifact status="successful" details="" size="2956" time="1268" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="2956" time="1148" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml" searched="true" original-local-location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
 				<caller organisation="learnspark" name="learnspark$sources_javadoc_2.10" conf="test-internal, test, optional, compile, provided, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-api" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="5619916" time="0" location="/home/siv/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/docs/hadoop-yarn-api-2.2.0-javadoc.jar">

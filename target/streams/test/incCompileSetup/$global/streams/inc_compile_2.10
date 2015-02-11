@@ -1,0 +1,162 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+4 items
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> /home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes/NewSparkTest$$anonfun$1.class
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> /home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes/NewSparkTest$$anonfun$2.class
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> /home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes/NewSparkTest$$anonfun$3.class
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> /home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes/NewSparkTest.class
+binary dependencies:
+4 items
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> /home/siv/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.2.0.jar
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> /home/siv/.ivy2/cache/org.scalatest/scalatest_2.10/bundles/scalatest_2.10-2.2.4.jar
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> /home/siv/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+4 items
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> NewSparkTest
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> NewSparkTest$$anonfun$1
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> NewSparkTest$$anonfun$2
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> NewSparkTest$$anonfun$3
+used names:
+68 items
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> +
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> <init>
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> FlatSpec
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> Long
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> NewSparkTest
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> Predef
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> SparkConf
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> SparkContext
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> String
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> System
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> _1
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> _2
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> a
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> addJar
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> apache
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> apply
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> b
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> conf
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> contains
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> convertToInAndIgnoreMethods
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> convertToStringShouldWrapper
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> count
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> fileLoc
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> filter
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> getProperty
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> in
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> info
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> jarLoc
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> java
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> lang
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> logFile
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> markup
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> ne
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> numAs
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> numBs
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> org
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> projLoc
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> qual$1
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> qual$2
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> qual$3
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> qual$4
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> qual$5
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> qual$6
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> sc
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> scala
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> scalatest
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> setAppName
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> setMaster
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> shorthandTestRegistrationFunction
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> should
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> spark
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> sparkEnv
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> start
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> textFile
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> unchecked
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> x
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> x$10
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> x$11
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> x$12
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> x$13
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> x$2
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> x$3
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> x$4
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> x$5
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> x$6
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> x$7
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> x$8
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> x$9
+product stamps:
+4 items
+/home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes/NewSparkTest$$anonfun$1.class -> lastModified(1423643555000)
+/home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes/NewSparkTest$$anonfun$2.class -> lastModified(1423643555000)
+/home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes/NewSparkTest$$anonfun$3.class -> lastModified(1423643555000)
+/home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes/NewSparkTest.class -> lastModified(1423643555000)
+source stamps:
+1 items
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> hash(65c29afe96c655190b125f7407aa69ce5b4d0f6b)
+binary stamps:
+4 items
+/home/siv/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.2.0.jar -> lastModified(1418205503000)
+/home/siv/.ivy2/cache/org.scalatest/scalatest_2.10/bundles/scalatest_2.10-2.2.4.jar -> lastModified(1422519425000)
+/home/siv/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> lastModified(1395179187000)
+/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar -> lastModified(1422319719000)
+class names:
+4 items
+/home/siv/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.2.0.jar -> org.apache.spark.SparkConf
+/home/siv/.ivy2/cache/org.scalatest/scalatest_2.10/bundles/scalatest_2.10-2.2.4.jar -> org.scalatest.FlatSpec
+/home/siv/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> scala.Tuple2$
+/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDhwqfXAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAJc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw3MM1Y3QAGmNvbnZlcnRUb1N0cmluZ011c3RXcmFwcGVyc3EAfgAL5VUtS3QAGWNvbnZlcnRUb1N0cmluZ0NhbldyYXBwZXJzcQB+AAsfnZ7+dAASY29udmVydFRvRXF1YWxpemVyc3EAfgALRp+MOnQAKGNvbnZlcnRUb0luQW5kSWdub3JlTWV0aG9kc0FmdGVyVGFnZ2VkQXNzcQB+AAt/jaYldAAnc2hvcnRoYW5kU2hhcmVkVGVzdFJlZ2lzdHJhdGlvbkZ1bmN0aW9uc3EAfgALKL5bW3QAFXVuY29uc3RyYWluZWRFcXVhbGl0eXNxAH4AC/OKzzR0ABtjb252ZXJ0VG9JbkFuZElnbm9yZU1ldGhvZHNzcQB+AAtqMJWpdAAcY29udmVydFRvU3RyaW5nU2hvdWxkV3JhcHBlcnNxAH4AC93NxU90ACFzaG9ydGhhbmRUZXN0UmVnaXN0cmF0aW9uRnVuY3Rpb251cQB+AAkAAACMc3EAfgALSgD+t3QABmFzc2VydHNxAH4AC5wzEWx0AAZub3RpZnlzcQB+AAsjjK+OdAAmbG93UHJpb3JpdHlDb252ZXJzaW9uQ2hlY2tlZENvbnN0cmFpbnRzcQB+AAtJ0FtZdAAHZ2V0VGFnc3NxAH4AC/eWRwV0ABBBc3NlcnRpb25zSGVscGVyc3EAfgALXmhMYnQABmNhbmNlbHNxAH4AC6UKmsx0ABFleGVjdXRlJGRlZmF1bHQkMnNxAH4ACz5y8Z10AAxleHBlY3RSZXN1bHRzcQB+AAvjU/+CdAAJaW50ZXJjZXB0c3EAfgAL/H1qTXQABGZhaWxzcQB+AAtP0yYCdAAUSXRWZXJiU3RyaW5nVGFnZ2VkQXNzcQB+AAuPZtxqdAAEbmFtZXNxAH4AC6PD3kx0AAJpbnNxAH4AC33G55l0AAxOZXdTcGFya1Rlc3RzcQB+AAub96XDdAAUYXNzZXJ0RG9lc05vdENvbXBpbGVzcQB+AAseHYHcdAARZXhlY3V0ZSRkZWZhdWx0JDRzcQB+AAuqwR84dAACaXNzcQB+AAvXUzvRdAAHZXhlY3V0ZXNxAH4AC6Qzl5N0AAR3YWl0c3EAfgALbQ+zdXQAEXJlZ2lzdGVyVGVzdFRvUnVuc3EAfgALetvtyHQAC3Rlc3REYXRhRm9yc3EAfgALJvCxTXQAE2NyZWF0ZUNhdGNoUmVwb3J0ZXJzcQB+AAs/yZYzdAAJc3R5bGVOYW1lc3EAfgALu/p6OHQADSRhc0luc3RhbmNlT2ZzcQB+AAtBXoj9dAARZXhlY3V0ZSRkZWZhdWx0JDNzcQB+AAsfBxcvdAAJY29uZmlnTWFwc3EAfgALVHKY6nQAC2RpZmZTdHJpbmdzc3EAfgAL3BuAxXQABmVxdWFsc3NxAH4AC+xsznJ0ACxjb252ZXJ0RXF1aXZhbGVuY2VUb0FUb0JDb252ZXJzaW9uQ29uc3RyYWludHNxAH4AC+vjGfF0AA9kZWZhdWx0RXF1YWxpdHlzcQB+AAs5ugZ+dAAiY29udmVydEVxdWl2YWxlbmNlVG9BVG9CQ29uc3RyYWludHNxAH4ACw7gg2h0AARtdXN0c3EAfgALsDqb4HQABHRhZ3NzcQB+AAv8p8L0dAAMYXNJbnN0YW5jZU9mc3EAfgALsM0h3nQABWFsZXJ0c3EAfgALzXO0qnQAA3J1bnNxAH4ACx4KKat0AAhzcGFya0VudnNxAH4AC3g98c10AAlzdXBlciRydW5zcQB+AAsuqSXkdAAPTGVnYWN5RXF1YWxpemVyc3EAfgALLB2ZFXQABnNjb3Blc3NxAH4AC8Cna+90ABhjb252ZXJ0VG9MZWdhY3lFcXVhbGl6ZXJzcQB+AAvbknzPdAAHcHJvakxvY3NxAH4AC3Z8Eeh0AAxzeW5jaHJvbml6ZWRzcQB+AAsgCqqedAAEbGVmdHNxAH4AC473ngl0AAJpdHNxAH4ACz/dvcx0AA5hc3NlcnRDb21waWxlc3NxAH4AC+l4chR0AA5sZWZ0U2lkZVN0cmluZ3NxAH4AC4fncTt0AA0kaXNJbnN0YW5jZU9mc3EAfgALzR5GIHQABHRyYXBzcQB+AAtN7AHXdAAVdGVzdERhdGFGb3IkZGVmYXVsdCQyc3EAfgALncNz0HQAEkluQW5kSWdub3JlTWV0aG9kc3NxAH4AC1QZCex0AAxhc3NlcnRSZXN1bHRzcQB+AAtyNqhpdAAXU3RyaW5nQ2FuV3JhcHBlckZvclZlcmJzcQB+AAsBPxFFdAAEdGV4dHNxAH4AC7Wx9090ACxjb252ZXJ0RXF1aXZhbGVuY2VUb0JUb0FDb252ZXJzaW9uQ29uc3RyYWludHNxAH4AC+jGDx10ABRyZWdpc3RlclRlc3RUb0lnbm9yZXNxAH4ACzKsLGx0AAR0aGV5c3EAfgALAv1NqHQAEWV4ZWN1dGUkZGVmYXVsdCQ3c3EAfgALSdGzlHQAFXR5cGVDaGVja2VkQ29uc3RyYWludHNxAH4AC7LybO10AAMhPT1zcQB+AAv+/T3hdAAEaW5mb3NxAH4AC1vKHjR0AAlub3RpZnlBbGxzcQB+AAtmB14SdAAMSXRWZXJiU3RyaW5nc3EAfgALzFHu83QAC3dpdGhGaXh0dXJlc3EAfgALFVPJg3QAB3J1blRlc3RzcQB+AAs2e767dAAMaXNJbnN0YW5jZU9mc3EAfgALS8D32XQACHdpdGhDbHVlc3EAfgALuYG3Q3QAEGFzc2VydGlvbnNIZWxwZXJzcQB+AAti8nvCdAARZXhlY3V0ZSRkZWZhdWx0JDZzcQB+AAsQaCZMdAAIdGFnZ2VkQXNzcQB+AAtd3uwUdAAPYXNzZXJ0VHlwZUVycm9yc3EAfgALTJDzBXQABm1hcmt1cHNxAH4AC2R4S1l0AAhsZWZ0U2lkZXNxAH4AC3QIqZh0AAY8aW5pdD5zcQB+AAuAhIpidAALbWFjcm9Bc3N1bWVzcQB+AAtoVI8CdAAPcnVuTmVzdGVkU3VpdGVzc3EAfgAL1RGShnQAA2NhbnNxAH4AC6P2fLB0AAZJdFdvcmRzcQB+AAtgkJ5XdAAFYXBwbHlzcQB+AAu+oMcLdAAJRXF1YWxpemVyc3EAfgALGpoWRXQAG25ld0Fzc2VydGlvbkZhaWxlZEV4Y2VwdGlvbnNxAH4AC/r4yhJ0AARub3Rlc3EAfgAL+kAeenQAAj09c3EAfgALNbRiiHQAH0luQW5kSWdub3JlTWV0aG9kc0FmdGVyVGFnZ2VkQXNzcQB+AAsqdVocdAAFY2xvbmVzcQB+AAv8UDhLdAAMQmVoYXZpb3JXb3Jkc3EAfgAL1ZCy4nQAB2ZpbGVMb2NzcQB+AAtYUMKzdAAGZXhwZWN0c3EAfgALE0UB63QABnNob3VsZHNxAH4AC5SdGuh0AAxuZXN0ZWRTdWl0ZXNzcQB+AAsiR4LKdAAGYXNzdW1lc3EAfgALzRwZNXQABiRpbml0JHNxAH4ACxEyr0J0ACBsb3dQcmlvcml0eVR5cGVDaGVja2VkQ29uc3RyYWludHNxAH4AC5TZgLl0AAhUaGV5V29yZHNxAH4AC/8H8vd0AAxyZWdpc3RlclRlc3RzcQB+AAt1eBrDdAARZXhlY3V0ZSRkZWZhdWx0JDVzcQB+AAtG+gO8dAADPT09c3EAfgAL0RoCHHQAGG5ld1Rlc3RDYW5jZWxlZEV4Y2VwdGlvbnNxAH4AC+gXVYh0AAh0b1N0cmluZ3NxAH4ACzHNzI10AAl0ZXN0TmFtZXNzcQB+AAskhf2YdAAYU3RyaW5nTXVzdFdyYXBwZXJGb3JWZXJic3EAfgAL1WwfVnQAEWV4ZWN1dGUkZGVmYXVsdCQxc3EAfgALnIuLunQAAiE9c3EAfgALmeJ62HQAF0xlZ2FjeUNoZWNraW5nRXF1YWxpemVyc3EAfgALdt41S3QAGElnbm9yZVZlcmJTdHJpbmdUYWdnZWRBc3NxAH4AC6g43Ud0AAhnZXRDbGFzc3NxAH4ACxs89/B0AAZqYXJMb2NzcQB+AAuAxSThdAATcmVnaXN0ZXJJZ25vcmVkVGVzdHNxAH4AC3rRKxJ0AAZiZWhhdmVzcQB+AAt2xZkKdAAIcnVuVGVzdHNzcQB+AAuKEa/VdAAIYmVoYXZpb3JzcQB+AAusO0HPdAARcGVuZGluZ1VudGlsRml4ZWRzcQB+AAsCcYUadAAOVGhleVZlcmJTdHJpbmdzcQB+AAsQUSwBdAAFc3RhcnRzcQB+AAtSWx8VdAARZXhwZWN0ZWRUZXN0Q291bnRzcQB+AAuqFLyvdAAIcmVydW5uZXJzcQB+AAvv7t2fdAAiY29udmVydEVxdWl2YWxlbmNlVG9CVG9BQ29uc3RyYWludHNxAH4AC2Kb5Kl0AAJuZXNxAH4ACwoeA8d0ABZUaGV5VmVyYlN0cmluZ1RhZ2dlZEFzc3EAfgAL8egqK3QAEUNoZWNraW5nRXF1YWxpemVyc3EAfgALxYtL03QAIGNvbnZlcnRUb0xlZ2FjeUNoZWNraW5nRXF1YWxpemVyc3EAfgALA96xNXQAB3BlbmRpbmdzcQB+AAsdg2mhdAAGaWdub3Jlc3EAfgAL7cXBrnQAEElnbm9yZVZlcmJTdHJpbmdzcQB+AAvb3/hwdAALbWFjcm9Bc3NlcnRzcQB+AAu24UYydAACZXFzcQB+AAvCkDuwdAAbZ2V0T2JqZWN0c0ZvckZhaWx1cmVNZXNzYWdlc3EAfgALsa2aoHQAGmNvbnZlcnRUb0NoZWNraW5nRXF1YWxpemVyc3EAfgALBVLvU3QAAm9mc3EAfgALdwd1q3QACU5vQXJnVGVzdHNxAH4AC3dbeKN0AApJZ25vcmVXb3Jkc3EAfgALHujx1XQAAiMjc3EAfgAL02jI/XQABmVuZ2luZXNxAH4ACzU+lZV0ABpTdHJpbmdTaG91bGRXcmFwcGVyRm9yVmVyYnNxAH4AC+cg0+h0AAhmaW5hbGl6ZXNxAH4AC2ljmrt0ABtjb252ZXJzaW9uQ2hlY2tlZENvbnN0cmFpbnRzcQB+AAsUjRSPdAAIaGFzaENvZGVzcQB+AAvQ5sy8dAAHc3VpdGVJZHNxAH4AC0gdHlZ0AAlzdWl0ZU5hbWVzcQB+AAvUTtSOdAAGYXBwZW5kc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4BQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgA7dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAACdAAnc2NhbGEucmVmbGVjdC5tYWNyb3MuaW50ZXJuYWwubWFjcm9JbXBsdAAQc2NhbGEuZGVwcmVjYXRlZHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgFaAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgFBTAAJaW5oZXJpdGVkcQB+AUFMAAdwYXJlbnRzcQB+AUF4cQB+AWFzcQB+AVoBdXEAfgE8AAAAAHBzcQB+AVoBdXEAfgE8AAAAAHBzcQB+AVoBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAABJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgFgdAAIRmxhdFNwZWNzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AWBzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAA29yZ3NxAH4BeXQACXNjYWxhdGVzdHNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgF6c3EAfgFtdAAMRmxhdFNwZWNMaWtlcQB+AXNzcQB+AW10AAtEb2N1bWVudGluZ3EAfgFzc3EAfgFtdAAIQWxlcnRpbmdxAH4Bc3NxAH4BbXQACU5vdGlmeWluZ3EAfgFzc3EAfgFtdAAJSW5mb3JtaW5ncQB+AXNzcQB+AW10AAdDYW5WZXJic3EAfgFxc3EAfgF0dXEAfgF3AAAABHNxAH4BeXQAA29yZ3NxAH4BeXQACXNjYWxhdGVzdHNxAH4BeXQABXdvcmRzcQB+AYBzcQB+AW10AAhNdXN0VmVyYnEAfgGNc3EAfgFtdAAKU2hvdWxkVmVyYnEAfgGNc3EAfgFtdAAQVGVzdFJlZ2lzdHJhdGlvbnEAfgFzc3EAfgFtdAAFU3VpdGVxAH4Bc3NxAH4BbXQADFNlcmlhbGl6YWJsZXNxAH4BcXNxAH4BdHVxAH4BdwAAAANzcQB+AXl0AARqYXZhc3EAfgF5dAACaW9xAH4BgHNxAH4BbXQADUFic3RyYWN0U3VpdGVxAH4Bc3NxAH4BbXQACkFzc2VydGlvbnNxAH4Bc3NxAH4BbXQADFRyaXBsZUVxdWFsc3NxAH4BcXNxAH4BdHVxAH4BdwAAAANzcQB+AXl0AANvcmdzcQB+AXl0AAlzY2FsYWN0aWNxAH4BgHNxAH4BbXQAE1RyaXBsZUVxdWFsc1N1cHBvcnRxAH4BrXNxAH4BbXQABk9iamVjdHNxAH4BcXNxAH4BdHVxAH4BdwAAAANzcQB+AXlxAH4BpHNxAH4BeXQABGxhbmdxAH4BgHNxAH4BbXQAA0FueXNxAH4BcXNxAH4BdHVxAH4BdwAAAAJzcQB+AXl0AAVzY2FsYXEAfgGAcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABS3fEjl51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdABCL2hvbWUvc2l2L1NwYXJrL3Byb2plY3RzL0xlYXJuU3BhcmsvdGFyZ2V0L3NjYWxhLTIuMTAvdGVzdC1jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUZcKa/pbGVRkLEl90B6ppzltND2s=
+external apis:
+0 items
+source infos:
+1 items
+/home/siv/Spark/projects/LearnSpark/src/test/scala/NewSparkTest.scala -> 
+AAAAAAAAAAA=
+compilations:
+5 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABS3eGWlx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3RhcmdldC9zY2FsYS0yLjEwL3Rlc3QtY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABS3eOHcV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3RhcmdldC9zY2FsYS0yLjEwL3Rlc3QtY2xhc3Nlc3QAAS8=
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABS3eTD051cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3RhcmdldC9zY2FsYS0yLjEwL3Rlc3QtY2xhc3Nlc3QAAS8=
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABS3eUFN91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3RhcmdldC9zY2FsYS0yLjEwL3Rlc3QtY2xhc3Nlc3QAAS8=
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABS3fEjl51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3RhcmdldC9zY2FsYS0yLjEwL3Rlc3QtY2xhc3Nlc3QAAS8=

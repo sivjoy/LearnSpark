@@ -2,9 +2,7 @@
  * Created by siv on 1/27/15.
  */
 
-import org.apache.spark.SparkConf
 import org.apache.spark.{SparkContext,SparkConf}
-import org.scalatest.FlatSpec
 import org.scalatest.FlatSpec
 
 class NewSparkTest extends FlatSpec{
@@ -19,7 +17,10 @@ class NewSparkTest extends FlatSpec{
     def  start(master:String, appName:String,fileLoc:String) = {
       //val conf = new SparkConf().setMaster(master).setAppName(appName).setJars(jars).setExecutorEnv("SPARK_HOME",env)
       //val sc = new SparkContext(conf)
-      val sc = new SparkContext(master,appName,sparkEnv,List(jarLoc))
+      //val sc = new SparkContext(master,appName,sparkEnv)
+      val conf  = new SparkConf().setAppName("MySparkTest").setMaster("local[4]")
+      val sc = new SparkContext(conf)
+      sc.addJar(jarLoc)
       val logFile = sc.textFile(fileLoc,2)
       val numAs = logFile filter(x=>x.contains("a")) count()
       val numBs = logFile filter(x=>x.contains("b")) count()
@@ -27,14 +28,14 @@ class NewSparkTest extends FlatSpec{
     }
 
   "Spark count" should "print number of a's and b's" in {
-    note("The jar location is :"+jarLoc)
-    note("The read file location is :"+ fileLoc)
-    note("The env variable for Spark is located at : "+sparkEnv)
+    info("The jar location is :"+jarLoc)
+    info("The read file location is :"+ fileLoc)
+    info("The env variable for Spark is located at : "+sparkEnv)
 
-     val(a:Long,b:Long) = start("local","Simple Test",fileLoc)
+     val(a:Long,b:Long) = start("local[4]","NewSparkTest",fileLoc)
 
      info("A is :"+a)
      info("B is :"+b)
-    info("The end.")
+     info("The end.")
   }
 }

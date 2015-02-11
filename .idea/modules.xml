@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LearnSpark.iml" filepath="$PROJECT_DIR$/.idea/modules/LearnSpark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LearnSpark-build.iml" filepath="$PROJECT_DIR$/.idea/modules/LearnSpark-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/learnspark.iml" filepath="$PROJECT_DIR$/.idea/modules/learnspark.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/learnspark-build.iml" filepath="$PROJECT_DIR$/.idea/modules/learnspark-build.iml" />
     </modules>

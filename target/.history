@@ -1,0 +1,21 @@
+:q
+package
+test-only --class "NewSparkTest" --master "local[4]" target/scala-2.10/learnspark_2.10-1.0.jar
+testOnly --class "NewSparkTest" --master "local[4]" target/scala-2.10/learnspark_2.10-1.0.jar
+testOnly NewSparkTest --"local[4]" target/scala-2.10/learnspark_2.10-1.0.jar
+testOnly NewSparkTest "local[4]" target/scala-2.10/learnspark_2.10-1.0.jar
+testOnly "NewSparkTest" "local[4]" target/scala-2.10/learnspark_2.10-1.0.jar
+testOnly NewSparkTest local[4" target/scala-2.10/learnspark_2.10-1.0.jar
+testOnly NewSparkTest local[4] target/scala-2.10/learnspark_2.10-1.0.jar
+package
+testOnly NewSparkTest local[4] target/scala-2.10/learnspark_2.10-1.0.jar
+console
+update
+assembly
+test
+show discoveredClasses
+show discoveredMainClasses
+testOnly NewSparkTest
+update
+assembly
+test

@@ -1,0 +1,196 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+14 items
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/Dependencies$.class
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/Dependencies$Libraries$.class
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/Dependencies$V$.class
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/Dependencies.class
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$1.class
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$2.class
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$3.class
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$4.class
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$5.class
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$6.class
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$7.class
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$8.class
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$.class
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild.class
+binary dependencies:
+11 items
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> /home/siv/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.7.jar
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> /home/siv/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.7.jar
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> /home/siv/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> /home/siv/Spark/SetUpFiles/jdk1.7.0_75/jre/lib/rt.jar
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.7.jar
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.7.jar
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.7.jar
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.7.jar
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.7.jar
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/Spark/SetUpFiles/jdk1.7.0_75/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+1 items
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> /home/siv/Spark/projects/LearnSpark/project/Dependencies.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+14 items
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> Dependencies
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> Dependencies$
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> Dependencies$Libraries$
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> Dependencies$V$
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> SparkExampleProjectBuild
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> SparkExampleProjectBuild$
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> SparkExampleProjectBuild$$anonfun$project$1
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> SparkExampleProjectBuild$$anonfun$project$2
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> SparkExampleProjectBuild$$anonfun$project$3
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> SparkExampleProjectBuild$$anonfun$project$4
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> SparkExampleProjectBuild$$anonfun$project$5
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> SparkExampleProjectBuild$$anonfun$project$6
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> SparkExampleProjectBuild$$anonfun$project$7
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> SparkExampleProjectBuild$$anonfun$project$8
+used names:
+50 items
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> %
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> %%
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> <init>
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> AnyRef
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> Dependencies
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> Libraries
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> Seq
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> V
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> apply
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> at
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> collection
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> moduleIDConfigurable
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> package
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> resolutionRepos
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> sbt
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> scala
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> scalaTest
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> spark
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> sparkCore
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> toGroupID
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> toRepositoryName
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> ++=
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> :=
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> <init>
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> Append
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> Build
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> Dependencies
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> InitializeInstance
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> Keys
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> Libraries
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> Project
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> Seq
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> SparkExampleProjectBuild
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> appendN
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> appendSeq
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> apply
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> collection
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> file
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> libraryDependencies
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> name
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> package
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> project
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> pure
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> sbt
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> scalaTest
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> scalaVersion
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> set
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> settings
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> sparkCore
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> version
+product stamps:
+14 items
+/home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/Dependencies$.class -> lastModified(1423643709000)
+/home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/Dependencies$Libraries$.class -> lastModified(1423643709000)
+/home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/Dependencies$V$.class -> lastModified(1423643709000)
+/home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/Dependencies.class -> lastModified(1423643709000)
+/home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$1.class -> lastModified(1423643709000)
+/home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$2.class -> lastModified(1423643709000)
+/home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$3.class -> lastModified(1423643709000)
+/home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$4.class -> lastModified(1423643709000)
+/home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$5.class -> lastModified(1423643709000)
+/home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$6.class -> lastModified(1423643709000)
+/home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$7.class -> lastModified(1423643709000)
+/home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$$anonfun$project$8.class -> lastModified(1423643709000)
+/home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild$.class -> lastModified(1423643709000)
+/home/siv/Spark/projects/LearnSpark/project/target/scala-2.10/sbt-0.13/classes/SparkExampleProjectBuild.class -> lastModified(1423643709000)
+source stamps:
+2 items
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> hash(8ba9bc98fbce03d56ea82daecfbf8354c9a62b0b)
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> hash(7cc77103e49c3f09e3caec2cd94fef0d0bdb6611)
+binary stamps:
+7 items
+/home/siv/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.7.jar -> lastModified(1416378820000)
+/home/siv/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.7.jar -> lastModified(1416378891000)
+/home/siv/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.7.jar -> lastModified(1416378944000)
+/home/siv/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.7.jar -> lastModified(1416378959000)
+/home/siv/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.7.jar -> lastModified(1416378955000)
+/home/siv/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> lastModified(1395179187000)
+/home/siv/Spark/SetUpFiles/jdk1.7.0_75/jre/lib/rt.jar -> lastModified(1418951043000)
+class names:
+7 items
+/home/siv/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.7.jar -> sbt.LinePosition$
+/home/siv/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.7.jar -> sbt.ModuleID
+/home/siv/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.7.jar -> sbt.SettingKey
+/home/siv/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.7.jar -> sbt.Build
+/home/siv/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.7.jar -> sbt.package$
+/home/siv/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> scala.collection.Seq$
+/home/siv/Spark/SetUpFiles/jdk1.7.0_75/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+2 items
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDlfnSOAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKr2VpF0AAZub3RpZnlzcQB+AAx8pE5sdAAEd2FpdHNxAH4ADCtWe9x0AAlzY2FsYVRlc3RzcQB+AAwzCqiGdAANJGFzSW5zdGFuY2VPZnNxAH4ADF54pW50AAZlcXVhbHNzcQB+AAzC5u2HdAAMYXNJbnN0YW5jZU9mc3EAfgAM/5snFHQACXNwYXJrQ29yZXNxAH4ADO5htft0AAlMaWJyYXJpZXNzcQB+AAyIycfkdAAMc3luY2hyb25pemVkc3EAfgAMnW1tVHQADERlcGVuZGVuY2llc3NxAH4ADLQqRZF0AA0kaXNJbnN0YW5jZU9mc3EAfgAMLHCVZXQACW5vdGlmeUFsbHNxAH4ADH8WjZJ0AAxpc0luc3RhbmNlT2ZzcQB+AAxsM0v2dAABVnNxAH4ADPZdlgt0AAVzcGFya3NxAH4ADKdKlR50AAI9PXNxAH4ADFj7bax0AAVjbG9uZXNxAH4ADPNZIBN0AA9yZXNvbHV0aW9uUmVwb3NzcQB+AAzkd+yDdAAIdG9TdHJpbmdzcQB+AAxyVTCCdAACIT1zcQB+AAw9D6TadAAIZ2V0Q2xhc3NzcQB+AAwUSWo5dAACbmVzcQB+AAw2/XW2dAACZXFzcQB+AAz7AYltdAACIyNzcQB+AAxngrzddAAIZmluYWxpemVzcQB+AAwIfdCVdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBLeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+ACF1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AGIBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEtMAAlpbmhlcml0ZWRxAH4AS0wAB3BhcmVudHNxAH4AS3hxAH4AaXNxAH4AYgF1cQB+AEYAAAAAcHNxAH4AYgF1cQB+AEYAAAAAcHNxAH4AYgF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGh0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGhzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIF0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIJzcQB+AHV0AANBbnlzcQB+AHlzcQB+AHx1cQB+AH8AAAACc3EAfgCBdAAFc2NhbGFxAH4AiHBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAUt3xu4NdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQATi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTAvc2J0LTAuMTMvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFIupvJj7zgPVbqgtrs+/g1TJpisL
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAt5N1LAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cBk8aVx0AAZub3RpZnlzcQB+AAzfi6fpdAAEd2FpdHNxAH4ADDBSOox0AA0kYXNJbnN0YW5jZU9mc3EAfgAMy3g823QADGJ1aWxkTG9hZGVyc3NxAH4ADFoBNRd0AAZlcXVhbHNzcQB+AAwDonEddAAHcHJvamVjdHNxAH4ADIULL7V0AAxhc0luc3RhbmNlT2ZzcQB+AAxoNjJLdAAScHJvamVjdERlZmluaXRpb25zc3EAfgAMfq8aUXQADHN5bmNocm9uaXplZHNxAH4ADOslVvJ0AA0kaXNJbnN0YW5jZU9mc3EAfgAM5V/2SHQAGFNwYXJrRXhhbXBsZVByb2plY3RCdWlsZHNxAH4ADPKtLzl0AAlub3RpZnlBbGxzcQB+AAzO3EmAdAALcm9vdFByb2plY3RzcQB+AAzgc29zdAAMaXNJbnN0YW5jZU9mc3EAfgAM3KvHrnQAAj09c3EAfgAMGFui7HQABWNsb25lc3EAfgAMqpv+fXQACHRvU3RyaW5nc3EAfgAMOmYxUHQAAiE9c3EAfgAM0UQ11nQACHByb2plY3Rzc3EAfgAMJyuYK3QACGdldENsYXNzc3EAfgAMLAA2DHQAAm5lc3EAfgAMx9WhJ3QAAmVxc3EAfgAMPAWjSnQACHNldHRpbmdzc3EAfgAMxRud7nQAAiMjc3EAfgAMHMXtAnQACGZpbmFsaXplc3EAfgAMI80j03QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AS3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAjdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBiAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBLTAAJaW5oZXJpdGVkcQB+AEtMAAdwYXJlbnRzcQB+AEt4cQB+AGlzcQB+AGIBdXEAfgBGAAAAAHBzcQB+AGIBdXEAfgBGAAAAAHBzcQB+AGIBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBodAAFQnVpbGRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGhzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAA3NidHNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCCc3EAfgB1dAAGT2JqZWN0c3EAfgB5c3EAfgB8dXEAfgB/AAAAA3NxAH4AgXQABGphdmFzcQB+AIF0AARsYW5ncQB+AIZzcQB+AHV0AANBbnlzcQB+AHlzcQB+AHx1cQB+AH8AAAACc3EAfgCBdAAFc2NhbGFxAH4AhnBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAUt3xu4NdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQATi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTAvc2J0LTAuMTMvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFHzHcQPknD8J48rsLNlP7w0L22YR
+external apis:
+0 items
+source infos:
+2 items
+/home/siv/Spark/projects/LearnSpark/project/Dependencies.scala -> 
+AAAAAAAAAAA=
+/home/siv/Spark/projects/LearnSpark/project/SparkExampleProjectBuild.scala -> 
+AAAAAAAAAAA=
+compilations:
+8 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABS3d396t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTAvc2J0LTAuMTMvY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABS3d4k051cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTAvc2J0LTAuMTMvY2xhc3Nlc3QAAS8=
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABS3d5qbV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTAvc2J0LTAuMTMvY2xhc3Nlc3QAAS8=
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABS3d8LIV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTAvc2J0LTAuMTMvY2xhc3Nlc3QAAS8=
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABS3eCuD91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTAvc2J0LTAuMTMvY2xhc3Nlc3QAAS8=
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABS3eI3Ed1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTAvc2J0LTAuMTMvY2xhc3Nlc3QAAS8=
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABS3ePZdd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTAvc2J0LTAuMTMvY2xhc3Nlc3QAAS8=
+7 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABS3fG7g11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATi9ob21lL3Npdi9TcGFyay9wcm9qZWN0cy9MZWFyblNwYXJrL3Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTAvc2J0LTAuMTMvY2xhc3Nlc3QAAS8=

@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/siv/Spark/projects/LearnSpark/src/test/resources/kmeans_data.txt,/home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes/kmeans_data.txt)[0m
+[0m[[0mdebug[0m] [0m	(/home/siv/Spark/projects/LearnSpark/src/test/resources/clk.tsv,/home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes/clk.tsv)[0m
+[0m[[0mdebug[0m] [0m	(/home/siv/Spark/projects/LearnSpark/src/test/resources/README.md,/home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes/README.md)[0m
+[0m[[0mdebug[0m] [0m	(/home/siv/Spark/projects/LearnSpark/src/test/resources/reg.tsv,/home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes/reg.tsv)[0m
+[0m[[0mdebug[0m] [0m	(/home/siv/Spark/projects/LearnSpark/src/test/resources/people.txt,/home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes/people.txt)[0m
+[0m[[0mdebug[0m] [0m	(/home/siv/Spark/projects/LearnSpark/src/test/resources/README1.md,/home/siv/Spark/projects/LearnSpark/target/scala-2.10/test-classes/README1.md)[0m
